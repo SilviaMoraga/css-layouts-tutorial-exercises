@@ -1,11 +1,30 @@
+#wrapper {
+	display: flex;
+	width: 100%;
+}
+
+#caja1 {
+	position: relative;
+}
 #div1 {
 	background-color: red;
 	width: 150px;
-	float: left;
 	height: 100px;
 	padding: 100px;
 	text-align: center;
 	border-radius: 50px;
+}
+#div4 {
+	background-color: blue;
+	width: 150px;
+	height: 100px;
+	padding: 100px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#caja2 {
+	position: relative;
 }
 #div2 {
 	background-color: blue;
@@ -19,6 +38,26 @@
 }
 #div3 {
 	background-color: yellow;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#div5 {
+	background-color: red;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#div6 {
+	background-color: black;
 	height: 100px;
 	width: 150px;
 	padding: 25px;
